@@ -5,11 +5,11 @@ return [
     // The prefix for all your API routes.
     // Can be changed to match your application’s API convention.
 
-    'middlewares' => 'web', 
+    'middlewares' => 'api',
     // Default middleware applied to all routes.
     // Can be replaced with 'api', 'auth:sanctum', or any custom middleware.
 
-    'rateLimiter' => 60, 
+    'rateLimiter' => 160, 
     // Limits the number of requests per minute.
     // Optional: change value or disable by setting to null.
 
